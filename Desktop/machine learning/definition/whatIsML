@@ -1,0 +1,19 @@
+machine learning is proccese or algos that take data [matier premier] and manipulate it and learn from it, ML models can predict numerical values based on historical data.
+
+behavior of machine learnig
+data processing/ Driving innovation/ Enabling automation
+
+TYPES OF MACHINE LEARNING
+
+supervised learning
+where in model wehave label and features that machine algo in supervised learning it take output and input and learn from it
+/examples of supervised learning algos
+linear regression, logistic regression, decision tree, Random Forests, support vector machine, k-nearest neighbors, gradient boostion ...
+
+unsupervised learning 
+in this hand the algos in unsupervised learning learn only from input without label The model is left to find patterns and relationships in the data on its own
+/exmples of unsipervised learning algos
+natural language processing, image and video analysis, anomaly detection, customer segmentation, and recommendation engines.
+
+
+this is just a quick intro we gonna go allthough all this concept
