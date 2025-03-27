@@ -1,0 +1,104 @@
+/* General Styles */
+body 
+{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(150, 198, 198);
+}
+
+.realhead 
+{
+  color: aquamarine;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: #1e2429;
+  border: 3px solid #070e12;
+  border-radius: 17px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  width: 400px; /* Adjust the width as needed */
+  margin: 10px auto; /* Centers it horizontally */
+}
+
+.container
+{
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text_head
+{
+  color: #000000;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 15px;
+  border-radius: 9px;
+  padding: 10px; 
+  border: #000000 10px darkgoldenrod;
+  background-color: #dcdbdb;
+
+}
+/* File Input */
+input[type="file"]
+{
+  color: turquoise;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Button */
+button
+{
+  size: 200px;
+  color: #000102;
+  border-radius: 8px;
+  background: none;
+  color: #3498db;
+  padding: 10px 20px;
+  border: 2px solid #3498db;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.4s;
+}
+    
+button::before
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  background-color: #000102;
+  transition: left 0.4s;
+  z-index: -1;
+}
+    
+    button:hover::before {
+      left: 0;
+    }
+    
+    button:hover {
+      color: rgb(0, 0, 0);
+    }
+      
+  /* Image Display */
+  .image-container {
+      margin-top: 20px;
+  }
+  
+  img {
+      max-width: 100%;
+      max-height: 400px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
